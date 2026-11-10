@@ -1,0 +1,40 @@
+# Operating system files
+.DS_Store
+._*
+Thumbs.db
+
+# Local dependencies, caches and temporary files
+node_modules/
+.cache/
+.npm/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+coverage/
+*.log
+*.tmp
+*.temp
+*.swp
+*~
+
+# Local editor/agent settings and secrets
+.vscode/
+.idea/
+.agents/
+.codex/
+.aws/
+.env
+.env.*
+!.env.example
+
+# Local QA reports, preview wrappers and backup packages
+IMPLEMENTATION_REPORT.md
+PRODUCTION_REPORT.md
+production-audit.json
+production-verification.json
+iframe-preview.html
+production-iframe-preview.html
+thanksgiving-production.zip
+
+# Keep docs/, editable sources, original artwork, tests, build tools,
+# and production-build.json tracked for publication and reproducible checks.
