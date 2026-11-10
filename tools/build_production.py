@@ -2,7 +2,7 @@
 Requires cwebp and esbuild. Override ESBUILD with a local executable path if needed.
 """
 from pathlib import Path
-import hashlib,json,os,re,shutil,subprocess,tempfile,zipfile
+import base64,hashlib,json,os,re,shutil,subprocess,tempfile,zipfile
 ROOT=Path(__file__).resolve().parent.parent
 sha=lambda data:hashlib.sha256(data).hexdigest()
 def run(args):
@@ -44,12 +44,19 @@ def build():
    (work/p.name).write_text(s)
   js=temp/'game.js';run([esbuild,work/'game.js','--bundle','--minify','--format=esm','--target=es2020','--legal-comments=none','--outfile='+str(js)])
   jsname='game.'+sha(js.read_bytes())[:12]+'.js';(assets/jsname).write_bytes(js.read_bytes())
-  css=(ROOT/'src/style.css').read_text();css=re.sub(r'\.\./1920х1080\.png(?:\?v=[a-zA-Z0-9]+)?',Path(mapping['1920х1080.png']).name,css)
+  css=(ROOT/'src/style.css').read_text();css=re.sub(r'\.\./1920х1080\.png(?:\?v=[a-zA-Z0-9]+)?',mapping['1920х1080.png'],css)
   if '1920х1080.png' in css:raise RuntimeError('Background URL was not replaced')
+  # Tiny inline copy of the approved background avoids a plain-colour first paint.
+  fallback=temp/'background-preview.webp'
+  run(['cwebp','-q','50','-m','6','-resize','192','108',ROOT/'1920х1080.png','-o',fallback])
+  preview='data:image/webp;base64,'+base64.b64encode(fallback.read_bytes()).decode()
+  css+='body{background-image:url('+preview+');background-position:center;background-size:contain;background-repeat:no-repeat}'
   (temp/'style.css').write_text(css);mini=temp/'style.min.css'
   run([esbuild,temp/'style.css','--minify','--target=es2020','--outfile='+str(mini)])
-  cssname='style.'+sha(mini.read_bytes())[:12]+'.css';(assets/cssname).write_bytes(mini.read_bytes())
-  html=(ROOT/'index.html').read_text();html=re.sub(r'src/style\.css\?v=[a-zA-Z0-9]+','assets/'+cssname,html);html=re.sub(r'src/game\.js\?v=[a-zA-Z0-9]+','assets/'+jsname,html)
+  html=(ROOT/'index.html').read_text()
+  critical='<link rel="preload" as="image" fetchpriority="high" href="'+mapping['1920х1080.png']+'"><style>'+mini.read_text().strip()+'</style>'
+  html=re.sub(r'<link rel="stylesheet" href="src/style\.css\?v=[a-zA-Z0-9]+">',critical,html)
+  html=re.sub(r'src/game\.js\?v=[a-zA-Z0-9]+','assets/'+jsname,html)
   html=re.sub(r'>\s+<','><',html).strip();(out/'index.html').write_text(html+'\n')
   files={str(p.relative_to(out)):{'bytes':p.stat().st_size,'sha256':sha(p.read_bytes())} for p in sorted(out.rglob('*')) if p.is_file()}
   docs.mkdir(exist_ok=True)

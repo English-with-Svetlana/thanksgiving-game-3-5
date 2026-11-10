@@ -1,14 +1,15 @@
 {
-  "original_runtime_bytes": 20275142,
-  "optimized_runtime_bytes": 1575228,
-  "zip_bytes": 1571856,
+  "original_runtime_bytes": 20276944,
+  "optimized_runtime_bytes": 1579296,
+  "zip_bytes": 1574551,
   "source_hashes": {
-    "index.html": "3ead55a8e49553240eb33fc08aef5f348706c2926420efef45b6aec26dcc47dd",
+    "index.html": "380ba6767babc030fd442736119c02567faa10275ab21f221272fc8187583b6d",
     "src/audio.js": "4e5541ded752f2622176e1f1561e7167675c2cf5e66a1f455b59711ce780c3f2",
-    "src/data.js": "5508fdb17533344c9336a833cd752cbba58ea4ec7fe0bb038b18d2cbf966aebd",
+    "src/data.js": "dbc34fe36657f0877829a1d1fad74f465f2b2d4992ffbef3fa9436cf83f2e5ef",
     "src/engine.js": "5463112282a386e7332367bf3d53d0d54c5f5d338feb7e165fa74587a1166cd8",
-    "src/game.js": "729edf28aec511d23ae6935c6db688476cc85629cac4bf1ab477d94d2d936ef1",
-    "src/style.css": "c575a014498ade66ece926a92401d630393c22c790a394504d8f8f7c64f1d046",
+    "src/game.js": "322ee7e0f12be0e70d93785e9d9bd1d83b14589105e92cdfb08fad06f5676051",
+    "src/loading.js": "51cadab9fb2af37f811c4f1c53086cbc37b48e91540150c48c036315ac3b4eb8",
+    "src/style.css": "0c70355a5603d5319a76be5de7ed087d45c4d5882c4437d126255b938baefda1",
     "1920\u04451080.png": "8b3d264f1bba9647a77023aefe541ebde951f719162bb215169f764efdbf38c8",
     "celebrate.png": "e5ea7516ed675904a8210a041549c88261fc394b28b09e93285a65df2cbee69c",
     "corn.png": "6d916d0fddc5892a4715eedf2e70326a26d6e50e817ff082e50415b915e2986e",
@@ -31,7 +32,7 @@
         1215
       ],
       "encoding": "WebP quality 94, sharp YUV",
-      "encoder_diagnostic": "Saving file '/var/folders/3j/2_hk8ymn1q50cwqbzpd3s_7h0000gn/T/thanksgiving-production-hr5v7fre/background.webp'\nFile:      /Users/lana110/Desktop/Thanksgiving 3-5/1920\u04451080.png\nDimension: 2160 x 1215\nOutput:    353696 bytes Y-U-V-All-PSNR 49.62 51.16 51.17   50.07 dB\n           (1.08 bpp)\nblock count:  intra4:       8914  (86.88%)\n              intra16:      1346  (13.12%)\n              skipped:        78  (0.76%)\nbytes used:  header:            563  (0.2%)\n             mode-partition:  45798  (12.9%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       1%|       5%|      27%|      67%|   10260\n      quantizer:  |       7 |       7 |       5 |       4 |\n   filter level:  |       2 |       0 |       1 |       1 |\n"
+      "encoder_diagnostic": "Saving file '/var/folders/3j/2_hk8ymn1q50cwqbzpd3s_7h0000gn/T/thanksgiving-production-h6qaae1g/background.webp'\nFile:      /Users/lana110/Desktop/Thanksgiving 3-5/1920\u04451080.png\nDimension: 2160 x 1215\nOutput:    353696 bytes Y-U-V-All-PSNR 49.62 51.16 51.17   50.07 dB\n           (1.08 bpp)\nblock count:  intra4:       8914  (86.88%)\n              intra16:      1346  (13.12%)\n              skipped:        78  (0.76%)\nbytes used:  header:            563  (0.2%)\n             mode-partition:  45798  (12.9%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       1%|       5%|      27%|      67%|   10260\n      quantizer:  |       7 |       7 |       5 |       4 |\n   filter level:  |       2 |       0 |       1 |       1 |\n"
     },
     {
       "source": "celebrate.png",
@@ -43,7 +44,7 @@
         940
       ],
       "encoding": "WebP quality 94, sharp YUV",
-      "encoder_diagnostic": "Saving file '/var/folders/3j/2_hk8ymn1q50cwqbzpd3s_7h0000gn/T/thanksgiving-production-hr5v7fre/celebrate.webp'\nFile:      /Users/lana110/Desktop/Thanksgiving 3-5/celebrate.png\nDimension: 940 x 940\nOutput:    166426 bytes Y-U-V-All-PSNR 47.90 48.29 48.04   47.98 dB\n           (1.51 bpp)\nblock count:  intra4:       3235  (92.93%)\n              intra16:       246  (7.07%)\n              skipped:         0  (0.00%)\nbytes used:  header:            516  (0.3%)\n             mode-partition:  18087  (10.9%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       8%|      23%|      28%|      40%|    3481\n      quantizer:  |       7 |       6 |       5 |       3 |\n   filter level:  |       2 |       0 |       1 |       0 |\n"
+      "encoder_diagnostic": "Saving file '/var/folders/3j/2_hk8ymn1q50cwqbzpd3s_7h0000gn/T/thanksgiving-production-h6qaae1g/celebrate.webp'\nFile:      /Users/lana110/Desktop/Thanksgiving 3-5/celebrate.png\nDimension: 940 x 940\nOutput:    166426 bytes Y-U-V-All-PSNR 47.90 48.29 48.04   47.98 dB\n           (1.51 bpp)\nblock count:  intra4:       3235  (92.93%)\n              intra16:       246  (7.07%)\n              skipped:         0  (0.00%)\nbytes used:  header:            516  (0.3%)\n             mode-partition:  18087  (10.9%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       8%|      23%|      28%|      40%|    3481\n      quantizer:  |       7 |       6 |       5 |       3 |\n   filter level:  |       2 |       0 |       1 |       0 |\n"
     },
     {
       "source": "corn.png",
@@ -55,7 +56,7 @@
         940
       ],
       "encoding": "WebP quality 94, sharp YUV",
-      "encoder_diagnostic": "Saving file '/var/folders/3j/2_hk8ymn1q50cwqbzpd3s_7h0000gn/T/thanksgiving-production-hr5v7fre/corn.webp'\nFile:      /Users/lana110/Desktop/Thanksgiving 3-5/corn.png\nDimension: 940 x 940\nOutput:    114212 bytes Y-U-V-All-PSNR 48.67 48.64 49.35   48.77 dB\n           (1.03 bpp)\nblock count:  intra4:       3162  (90.84%)\n              intra16:       319  (9.16%)\n              skipped:         0  (0.00%)\nbytes used:  header:            360  (0.3%)\n             mode-partition:  16078  (14.1%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       4%|      18%|      25%|      53%|    3481\n      quantizer:  |       7 |       7 |       6 |       3 |\n   filter level:  |       2 |      12 |       0 |      10 |\n"
+      "encoder_diagnostic": "Saving file '/var/folders/3j/2_hk8ymn1q50cwqbzpd3s_7h0000gn/T/thanksgiving-production-h6qaae1g/corn.webp'\nFile:      /Users/lana110/Desktop/Thanksgiving 3-5/corn.png\nDimension: 940 x 940\nOutput:    114212 bytes Y-U-V-All-PSNR 48.67 48.64 49.35   48.77 dB\n           (1.03 bpp)\nblock count:  intra4:       3162  (90.84%)\n              intra16:       319  (9.16%)\n              skipped:         0  (0.00%)\nbytes used:  header:            360  (0.3%)\n             mode-partition:  16078  (14.1%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       4%|      18%|      25%|      53%|    3481\n      quantizer:  |       7 |       7 |       6 |       3 |\n   filter level:  |       2 |      12 |       0 |      10 |\n"
     },
     {
       "source": "life.png",
@@ -67,7 +68,7 @@
         276
       ],
       "encoding": "lossless after resize, alpha preserved",
-      "encoder_diagnostic": "Saving file '/var/folders/3j/2_hk8ymn1q50cwqbzpd3s_7h0000gn/T/thanksgiving-production-hr5v7fre/life.webp'\nFile:      /Users/lana110/Desktop/Thanksgiving 3-5/life.png\nDimension: 276 x 276\nOutput:    42644 bytes (4.48 bpp)\nLossless-ARGB compressed size: 42644 bytes\n  * Header size: 2704 bytes, image data size: 39914\n  * Lossless features used: PREDICTION CROSS-COLOR-TRANSFORM SUBTRACT-GREEN\n  * Precision Bits: histogram=3 prediction=2 cross-color=3 cache=8\n"
+      "encoder_diagnostic": "Saving file '/var/folders/3j/2_hk8ymn1q50cwqbzpd3s_7h0000gn/T/thanksgiving-production-h6qaae1g/life.webp'\nFile:      /Users/lana110/Desktop/Thanksgiving 3-5/life.png\nDimension: 276 x 276\nOutput:    42644 bytes (4.48 bpp)\nLossless-ARGB compressed size: 42644 bytes\n  * Header size: 2704 bytes, image data size: 39914\n  * Lossless features used: PREDICTION CROSS-COLOR-TRANSFORM SUBTRACT-GREEN\n  * Precision Bits: histogram=3 prediction=2 cross-color=3 cache=8\n"
     },
     {
       "source": "parade.png",
@@ -79,7 +80,7 @@
         940
       ],
       "encoding": "WebP quality 94, sharp YUV",
-      "encoder_diagnostic": "Saving file '/var/folders/3j/2_hk8ymn1q50cwqbzpd3s_7h0000gn/T/thanksgiving-production-hr5v7fre/parade.webp'\nFile:      /Users/lana110/Desktop/Thanksgiving 3-5/parade.png\nDimension: 940 x 940\nOutput:    309104 bytes Y-U-V-All-PSNR 46.56 45.44 45.59   46.18 dB\n           (2.80 bpp)\nblock count:  intra4:       3453  (99.20%)\n              intra16:        28  (0.80%)\n              skipped:         0  (0.00%)\nbytes used:  header:            569  (0.2%)\n             mode-partition:  22320  (7.2%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      11%|      29%|      38%|      22%|    3481\n      quantizer:  |       7 |       6 |       5 |       3 |\n   filter level:  |       2 |       0 |       0 |       7 |\n"
+      "encoder_diagnostic": "Saving file '/var/folders/3j/2_hk8ymn1q50cwqbzpd3s_7h0000gn/T/thanksgiving-production-h6qaae1g/parade.webp'\nFile:      /Users/lana110/Desktop/Thanksgiving 3-5/parade.png\nDimension: 940 x 940\nOutput:    309104 bytes Y-U-V-All-PSNR 46.56 45.44 45.59   46.18 dB\n           (2.80 bpp)\nblock count:  intra4:       3453  (99.20%)\n              intra16:        28  (0.80%)\n              skipped:         0  (0.00%)\nbytes used:  header:            569  (0.2%)\n             mode-partition:  22320  (7.2%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      11%|      29%|      38%|      22%|    3481\n      quantizer:  |       7 |       6 |       5 |       3 |\n   filter level:  |       2 |       0 |       0 |       7 |\n"
     },
     {
       "source": "potatoes.png",
@@ -91,7 +92,7 @@
         940
       ],
       "encoding": "WebP quality 94, sharp YUV",
-      "encoder_diagnostic": "Saving file '/var/folders/3j/2_hk8ymn1q50cwqbzpd3s_7h0000gn/T/thanksgiving-production-hr5v7fre/potatoes.webp'\nFile:      /Users/lana110/Desktop/Thanksgiving 3-5/potatoes.png\nDimension: 940 x 940\nOutput:    135336 bytes Y-U-V-All-PSNR 48.54 49.13 49.13   48.73 dB\n           (1.23 bpp)\nblock count:  intra4:       3427  (98.45%)\n              intra16:        54  (1.55%)\n              skipped:         0  (0.00%)\nbytes used:  header:            322  (0.2%)\n             mode-partition:  19759  (14.6%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       3%|      12%|      43%|      42%|    3481\n      quantizer:  |       7 |       6 |       5 |       4 |\n   filter level:  |       2 |       0 |       4 |       3 |\n"
+      "encoder_diagnostic": "Saving file '/var/folders/3j/2_hk8ymn1q50cwqbzpd3s_7h0000gn/T/thanksgiving-production-h6qaae1g/potatoes.webp'\nFile:      /Users/lana110/Desktop/Thanksgiving 3-5/potatoes.png\nDimension: 940 x 940\nOutput:    135336 bytes Y-U-V-All-PSNR 48.54 49.13 49.13   48.73 dB\n           (1.23 bpp)\nblock count:  intra4:       3427  (98.45%)\n              intra16:        54  (1.55%)\n              skipped:         0  (0.00%)\nbytes used:  header:            322  (0.2%)\n             mode-partition:  19759  (14.6%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       3%|      12%|      43%|      42%|    3481\n      quantizer:  |       7 |       6 |       5 |       4 |\n   filter level:  |       2 |       0 |       4 |       3 |\n"
     },
     {
       "source": "pumpkin.png",
@@ -103,7 +104,7 @@
         940
       ],
       "encoding": "WebP quality 94, sharp YUV",
-      "encoder_diagnostic": "Saving file '/var/folders/3j/2_hk8ymn1q50cwqbzpd3s_7h0000gn/T/thanksgiving-production-hr5v7fre/pumpkin.webp'\nFile:      /Users/lana110/Desktop/Thanksgiving 3-5/pumpkin.png\nDimension: 940 x 940\nOutput:    101236 bytes Y-U-V-All-PSNR 49.18 49.93 50.12   49.44 dB\n           (0.92 bpp)\nblock count:  intra4:       3169  (91.04%)\n              intra16:       312  (8.96%)\n              skipped:         0  (0.00%)\nbytes used:  header:            377  (0.4%)\n             mode-partition:  15408  (15.2%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       5%|      17%|      17%|      62%|    3481\n      quantizer:  |       7 |       7 |       5 |       4 |\n   filter level:  |       2 |       0 |       0 |       9 |\n"
+      "encoder_diagnostic": "Saving file '/var/folders/3j/2_hk8ymn1q50cwqbzpd3s_7h0000gn/T/thanksgiving-production-h6qaae1g/pumpkin.webp'\nFile:      /Users/lana110/Desktop/Thanksgiving 3-5/pumpkin.png\nDimension: 940 x 940\nOutput:    101236 bytes Y-U-V-All-PSNR 49.18 49.93 50.12   49.44 dB\n           (0.92 bpp)\nblock count:  intra4:       3169  (91.04%)\n              intra16:       312  (8.96%)\n              skipped:         0  (0.00%)\nbytes used:  header:            377  (0.4%)\n             mode-partition:  15408  (15.2%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       5%|      17%|      17%|      62%|    3481\n      quantizer:  |       7 |       7 |       5 |       4 |\n   filter level:  |       2 |       0 |       0 |       9 |\n"
     },
     {
       "source": "pumpkin_pie.png",
@@ -115,7 +116,7 @@
         940
       ],
       "encoding": "WebP quality 94, sharp YUV",
-      "encoder_diagnostic": "Saving file '/var/folders/3j/2_hk8ymn1q50cwqbzpd3s_7h0000gn/T/thanksgiving-production-hr5v7fre/pumpkin_pie.webp'\nFile:      /Users/lana110/Desktop/Thanksgiving 3-5/pumpkin_pie.png\nDimension: 940 x 940\nOutput:    85002 bytes Y-U-V-All-PSNR 49.49 50.86 50.73   49.88 dB\n           (0.77 bpp)\nblock count:  intra4:       3046  (87.50%)\n              intra16:       435  (12.50%)\n              skipped:         1  (0.03%)\nbytes used:  header:            315  (0.4%)\n             mode-partition:  13816  (16.3%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       6%|      16%|      18%|      60%|    3481\n      quantizer:  |       7 |       7 |       5 |       4 |\n   filter level:  |       2 |       6 |       4 |       4 |\n"
+      "encoder_diagnostic": "Saving file '/var/folders/3j/2_hk8ymn1q50cwqbzpd3s_7h0000gn/T/thanksgiving-production-h6qaae1g/pumpkin_pie.webp'\nFile:      /Users/lana110/Desktop/Thanksgiving 3-5/pumpkin_pie.png\nDimension: 940 x 940\nOutput:    85002 bytes Y-U-V-All-PSNR 49.49 50.86 50.73   49.88 dB\n           (0.77 bpp)\nblock count:  intra4:       3046  (87.50%)\n              intra16:       435  (12.50%)\n              skipped:         1  (0.03%)\nbytes used:  header:            315  (0.4%)\n             mode-partition:  13816  (16.3%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       6%|      16%|      18%|      60%|    3481\n      quantizer:  |       7 |       7 |       5 |       4 |\n   filter level:  |       2 |       6 |       4 |       4 |\n"
     },
     {
       "source": "thankful.png",
@@ -127,7 +128,7 @@
         940
       ],
       "encoding": "WebP quality 94, sharp YUV",
-      "encoder_diagnostic": "Saving file '/var/folders/3j/2_hk8ymn1q50cwqbzpd3s_7h0000gn/T/thanksgiving-production-hr5v7fre/thankful.webp'\nFile:      /Users/lana110/Desktop/Thanksgiving 3-5/thankful.png\nDimension: 940 x 940\nOutput:    96788 bytes Y-U-V-All-PSNR 48.93 49.38 49.20   49.05 dB\n           (0.88 bpp)\nblock count:  intra4:       3300  (94.80%)\n              intra16:       181  (5.20%)\n              skipped:         7  (0.20%)\nbytes used:  header:            361  (0.4%)\n             mode-partition:  13255  (13.7%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       2%|      15%|      21%|      63%|    3481\n      quantizer:  |       7 |       7 |       6 |       4 |\n   filter level:  |       2 |       0 |       0 |       6 |\n"
+      "encoder_diagnostic": "Saving file '/var/folders/3j/2_hk8ymn1q50cwqbzpd3s_7h0000gn/T/thanksgiving-production-h6qaae1g/thankful.webp'\nFile:      /Users/lana110/Desktop/Thanksgiving 3-5/thankful.png\nDimension: 940 x 940\nOutput:    96788 bytes Y-U-V-All-PSNR 48.93 49.38 49.20   49.05 dB\n           (0.88 bpp)\nblock count:  intra4:       3300  (94.80%)\n              intra16:       181  (5.20%)\n              skipped:         7  (0.20%)\nbytes used:  header:            361  (0.4%)\n             mode-partition:  13255  (13.7%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       2%|      15%|      21%|      63%|    3481\n      quantizer:  |       7 |       7 |       6 |       4 |\n   filter level:  |       2 |       0 |       0 |       6 |\n"
     },
     {
       "source": "turkey.png",
@@ -139,7 +140,7 @@
         940
       ],
       "encoding": "WebP quality 94, sharp YUV",
-      "encoder_diagnostic": "Saving file '/var/folders/3j/2_hk8ymn1q50cwqbzpd3s_7h0000gn/T/thanksgiving-production-hr5v7fre/turkey.webp'\nFile:      /Users/lana110/Desktop/Thanksgiving 3-5/turkey.png\nDimension: 940 x 940\nOutput:    160990 bytes Y-U-V-All-PSNR 48.31 49.06 48.98   48.53 dB\n           (1.46 bpp)\nblock count:  intra4:       3369  (96.78%)\n              intra16:       112  (3.22%)\n              skipped:         0  (0.00%)\nbytes used:  header:            440  (0.3%)\n             mode-partition:  19049  (11.8%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       3%|      20%|      34%|      42%|    3481\n      quantizer:  |       7 |       6 |       5 |       3 |\n   filter level:  |       2 |       0 |       0 |       1 |\n"
+      "encoder_diagnostic": "Saving file '/var/folders/3j/2_hk8ymn1q50cwqbzpd3s_7h0000gn/T/thanksgiving-production-h6qaae1g/turkey.webp'\nFile:      /Users/lana110/Desktop/Thanksgiving 3-5/turkey.png\nDimension: 940 x 940\nOutput:    160990 bytes Y-U-V-All-PSNR 48.31 49.06 48.98   48.53 dB\n           (1.46 bpp)\nblock count:  intra4:       3369  (96.78%)\n              intra16:       112  (3.22%)\n              skipped:         0  (0.00%)\nbytes used:  header:            440  (0.3%)\n             mode-partition:  19049  (11.8%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       3%|      20%|      34%|      42%|    3481\n      quantizer:  |       7 |       6 |       5 |       3 |\n   filter level:  |       2 |       0 |       0 |       1 |\n"
     }
   ],
   "files": {
@@ -155,9 +156,9 @@
       "bytes": 114212,
       "sha256": "ba45e3023202f19e921034f083b69228a1e65b731f55c140de33e230be349109"
     },
-    "assets/game.db125e81d823.js": {
-      "bytes": 5718,
-      "sha256": "db125e81d823d87b2d4e0e2ef8a501073a28200a9b2c6985e95a245af600757f"
+    "assets/game.1efdd3ae55d3.js": {
+      "bytes": 6621,
+      "sha256": "1efdd3ae55d32eb8c550f064f691494791e3692d04b547d9dc1c3a6f70da8b68"
     },
     "assets/life.569c90635307.webp": {
       "bytes": 42644,
@@ -179,10 +180,6 @@
       "bytes": 85002,
       "sha256": "08ba7198526079750401492daa8ec9644773135126c4d75e6b5c1a49a006c217"
     },
-    "assets/style.1ba634d76258.css": {
-      "bytes": 2976,
-      "sha256": "1ba634d762581da49a7c9a34b9410f3c4b4a817eafffbc107e6891330a792053"
-    },
     "assets/thankful.5bc5a554e5ed.webp": {
       "bytes": 96788,
       "sha256": "5bc5a554e5edd4f1da4790798c34402502a6e319fa9a7ba8a382738756dc1cae"
@@ -192,8 +189,8 @@
       "sha256": "8aedf025e9f2cf8d57f702840d301bc201982a2265261752b62da3dea981d441"
     },
     "index.html": {
-      "bytes": 1100,
-      "sha256": "051640148b155d3405ecf43cbc1ade856c3e4af2858d699153908018e598db63"
+      "bytes": 7241,
+      "sha256": "b9c458494c5664139c554620e841984823a01ab5954db0c8eb6391daaf09eba4"
     }
   },
   "tools": {

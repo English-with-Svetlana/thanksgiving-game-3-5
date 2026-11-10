@@ -4,3 +4,5 @@ export const vocabulary = Object.freeze([
  ['PARADE','parade.png'],['CELEBRATE','celebrate.png'],['THANKFUL','thankful.png']
 ].map(([answer,image]) => Object.freeze({answer,image})));
 export const assetVersion = '5fbabca978ce';
+export const backgroundImage = '1920х1080.png';
+export const lifeImage = 'life.png';
